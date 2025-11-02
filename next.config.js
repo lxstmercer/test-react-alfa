@@ -13,7 +13,8 @@ const nextConfig = {
   skipTrailingSlashRedirect: true,
   experimental: {
     esmExternals: true,
-  }
+  },
+  output: 'standalone',
 }
 
 module.exports = nextConfig

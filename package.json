@@ -2,14 +2,11 @@
   "name": "test-react-alfa",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://mxrlbrx.github.io/test-react-alfa",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node server.js", 
-    "lint": "next lint",
-    "predeploy": "npm run build && xcopy .next\\static .next\\standalone\\static /E /I /Y",
-    "deploy": "gh-pages -d .next\\standalone"
+    "start": "next start -p $PORT",
+    "lint": "next lint"
   },
   "dependencies": {
     "lucide-react": "^0.263.1",
