@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start", 
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "predeploy": "npm run build && xcopy .next\\static .next\\standalone\\static /E /I /Y",
+    "deploy": "gh-pages -d .next\\standalone"
   },
   "dependencies": {
     "lucide-react": "^0.263.1",
