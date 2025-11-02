@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start", 
+    "start": "node server.js", 
     "lint": "next lint",
     "predeploy": "npm run build && xcopy .next\\static .next\\standalone\\static /E /I /Y",
     "deploy": "gh-pages -d .next\\standalone"

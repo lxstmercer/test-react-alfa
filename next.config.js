@@ -10,8 +10,6 @@ const nextConfig = {
       },
     ],
   },
-  basePath: '/test-react-alfa',
-  assetPrefix: '/test-react-alfa/',
   skipTrailingSlashRedirect: true,
   experimental: {
     esmExternals: true,
