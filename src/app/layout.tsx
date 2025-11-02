@@ -14,8 +14,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" href="/test-react-alfa/favicon.svg" type="image/svg+xml" />
+        <link rel="shortcut icon" href="/test-react-alfa/favicon.ico" />
       </head>
       <body>{children}</body>
     </html>

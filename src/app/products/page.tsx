@@ -9,6 +9,8 @@ import { useProductsStore } from '@/store/productsStore'
 
 const ITEMS_PER_PAGE = 8
 
+
+
 export default function ProductsPage() {
   const searchParams = useSearchParams()
   const filter = searchParams.get('filter') as 'all' | 'liked' | null || 'all'
