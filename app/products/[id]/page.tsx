@@ -3,8 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useParams, useRouter } from 'next/navigation'
 import { ArrowLeft, Heart, Star } from 'lucide-react'
-import { useProductsStore } from '@/store/productsStore'
-import { Product } from '@/store/productsStore'
+import { useProductsStore, Product } from '../../../store/productsStore'
 
 
 export default function ProductDetailPage() {

@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { Heart, Plus, Search, Package } from 'lucide-react'
-import ProductCard from '@/components/ProductCard'
-import { useProductsStore } from '@/store/productsStore'
+import ProductCard from '../../components/ProductCard'
+import { useProductsStore } from '../../store/productsStore'
 
 const ITEMS_PER_PAGE = 8
 

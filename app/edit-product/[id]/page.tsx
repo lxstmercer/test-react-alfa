@@ -2,8 +2,8 @@
 
 import { useParams, useRouter } from 'next/navigation'
 import { ArrowLeft } from 'lucide-react'
-import ProductForm from '@/components/ProductForm'
-import { useProductsStore } from '@/store/productsStore'
+import ProductForm from '../../../components/ProductForm'
+import { useProductsStore } from '../../../store/productsStore'
 
 export default function EditProductPage() {
   const router = useRouter()
