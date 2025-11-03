@@ -61,7 +61,7 @@ export default function ProductsPage() {
               <Plus size={24} />
               <span>Создать первый продукт</span>
             </Link>
-            <div className="mt-8 text-sm text-gray-500">
+            <div className=" mt-8 text-sm text-gray-500">
               <p>После создания продукта вы сможете:</p>
               <ul className="mt-2 space-y-1">
                 <li>• Редактировать информацию о продукте</li>
